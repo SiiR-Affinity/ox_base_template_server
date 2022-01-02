@@ -1,0 +1,21 @@
+{"module":"marketplace","message":"Marketplace service started","level":"debug","timestamp":"2022-01-02T05:49:58.565Z"}
+{"module":"player","message":"Player Service started","level":"debug","timestamp":"2022-01-02T05:49:58.566Z"}
+{"module":"calls","message":"Call service started","level":"debug","timestamp":"2022-01-02T05:49:58.567Z"}
+{"module":"notes","message":"Notes service started","level":"debug","timestamp":"2022-01-02T05:49:58.568Z"}
+{"module":"contact","message":"Contacts service started","level":"debug","timestamp":"2022-01-02T05:49:58.569Z"}
+{"module":"photo","message":"Photo service started","level":"debug","timestamp":"2022-01-02T05:49:58.570Z"}
+{"module":"messages","message":"Messages service started","level":"debug","timestamp":"2022-01-02T05:49:58.570Z"}
+{"module":"twitter","message":"Twitter service started","level":"debug","timestamp":"2022-01-02T05:49:58.571Z"}
+{"module":"match","message":"Match service started","level":"debug","timestamp":"2022-01-02T05:49:58.572Z"}
+{"message":"Sucessfully started","level":"info","timestamp":"2022-01-02T05:50:01.139Z"}
+{"module":"player","message":"New NPWD Player added through event (1) (char1:0fa418044560bd9a6206d3203884985dd67edef5)","level":"info","timestamp":"2022-01-02T05:51:11.398Z"}
+{"module":"player","message":{"source":1,"_identifier":"char1:0fa418044560bd9a6206d3203884985dd67edef5","_phoneNumber":"994-178-5902","username":"Jarvis Millennium","_firstname":"Jane","_lastname":"Doe"},"level":"debug","timestamp":"2022-01-02T05:51:11.398Z"}
+{"module":"events","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","level":"silly","timestamp":"2022-01-02T05:51:11.498Z"}
+{"module":"events","message":{"source":1,"data":null},"level":"silly","timestamp":"2022-01-02T05:51:11.498Z"}
+{"module":"events","message":"netPromise > npwd:fetchMessageGroups > RequestObj","level":"silly","timestamp":"2022-01-02T05:51:11.506Z"}
+{"module":"events","message":{"source":1,"data":null},"level":"silly","timestamp":"2022-01-02T05:51:11.507Z"}
+{"module":"events","message":"Response Promise Event npwd:getOrCreateTwitterProfile:91d18372-67c2-4496-880c-4e3c0fbe2916 (19.7734ms), Data >>","level":"silly","timestamp":"2022-01-02T05:51:11.518Z"}
+{"module":"events","message":{"status":"ok","data":{"id":12,"profile_name":"Jane_Doe","identifier":"char1:0fa418044560bd9a6206d3203884985dd67edef5","avatar_url":"https://i.file.glass/QrEvq.png","bio":null,"location":null,"job":null,"createdAt":"2021-12-31T07:00:33.000Z","updatedAt":"2021-12-31T07:00:33.000Z"}},"level":"silly","timestamp":"2022-01-02T05:51:11.518Z"}
+{"module":"events","message":"Response Promise Event npwd:fetchMessageGroups:9d32aeae-db83-46ce-827c-e20573d9c806 (12.947ms), Data >>","level":"silly","timestamp":"2022-01-02T05:51:11.519Z"}
+{"module":"events","message":{"status":"ok","data":[]},"level":"silly","timestamp":"2022-01-02T05:51:11.520Z"}
+{"module":"player","message":"Unloaded NPWD Player, source: (1)","level":"info","timestamp":"2022-01-02T05:51:43.084Z"}
